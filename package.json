@@ -1,0 +1,40 @@
+{
+  "name": "web-synkrofy-con-codex",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Base del proyecto web de Synkrofy con Next.js, Tailwind, Framer Motion y Prisma.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --max-warnings=0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamarbania-prog/Web-Synkrofy-con-Codex.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamarbania-prog/Web-Synkrofy-con-Codex/issues"
+  },
+  "homepage": "https://github.com/jamarbania-prog/Web-Synkrofy-con-Codex#readme",
+  "dependencies": {
+    "@prisma/client": "^7.7.0",
+    "framer-motion": "^12.38.0",
+    "next": "^16.2.3",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.27",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.3",
+    "postcss": "^8.5.9",
+    "prisma": "^7.7.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.9.3"
+  }
+}
